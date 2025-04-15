@@ -57,22 +57,4 @@ The model was evaluated on the validation set and showed high accuracy and good 
 ```bash
 git clone https://github.com/your-username/plant-disease-classification-vgg16.git
 cd plant-disease-classification-vgg16
-pip install -r requirements.txt
-from tensorflow.keras.models import load_model
-model = load_model("trained_model.h5")
-from tensorflow.keras.preprocessing import image
-import numpy as np
 
-# Load and process the image
-img = image.load_img('path_to_leaf.jpg', target_size=(224, 224))
-input_arr = image.img_to_array(img)
-input_arr = np.expand_dims(input_arr, axis=0)  # Convert single image to a batch
-
-# Predict the class
-class_names = ['Class 1', 'Class 2', 'Class 3', ..., 'Class 38']  # Replace with actual class names
-pred = model.predict(input_arr)
-
-# Get the predicted class
-predicted_class = class_names[np.argmax(pred)]
-
-print(f"Predicted class: {predicted_class}")
