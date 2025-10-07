@@ -1,4 +1,4 @@
-# 🌱 Plant Disease Classification using VGG16
+# 🌱 Plant Disease detection  using VGG16
 
 This project uses **Transfer Learning with the VGG16 model** to classify plant leaf images into 38 different plant disease categories. It is trained using a labeled and augmented dataset from Kaggle and implemented in **TensorFlow and Keras** on **Google Colab**.
 
@@ -51,10 +51,4 @@ The model was evaluated on the validation set and showed high accuracy and good 
 
 ---
 
-## 🧪 How to Use
-
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/plant-disease-classification-vgg16.git
-cd plant-disease-classification-vgg16
 
