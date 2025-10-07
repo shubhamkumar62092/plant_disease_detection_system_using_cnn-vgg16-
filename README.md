@@ -47,8 +47,6 @@ The model was evaluated on the validation set and showed high accuracy and good 
 ![Confusion Matrix](confusion_matrix.png)
 
 ### Sample Prediction:
-![Sample Prediction](sample_prediction.png)
-
----
+![Sample Prediction](Sample_image.png)
 
 
